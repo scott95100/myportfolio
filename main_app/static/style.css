@@ -29,12 +29,16 @@ h1, p {
 }
 
 #section1 {
-    background: url('https://diversityinsteam.com/wp-content/uploads/2020/09/software-engineer-on-keyboard.jpg') no-repeat center center fixed;nd-size: cover;
-	/* background: #5c53aa; */
-	color: #8d86c3;
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/197450750/Night%20City%20Lights%20Kids%20Background%20%2001_preview1%20.JPG?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=902090831a24cbe1d6237ed11d7a2bb7");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(163, 207, 207);
 } 
 
-#section2 {d
+
+#section2 {
 	background: #4bbfc3;
 	color: #81d2d5;
 }
@@ -69,11 +73,11 @@ h1 {
 }
 
 .nav {
-	position: fixed; left: 50%;
+	position: fixed; left: 20%;
 	width: 100%;
 	top: 20px;
 	z-index: 9;
-	padding-left: 100px;
+	padding-left: 0px;
 }
 
 .nav a {
@@ -116,16 +120,17 @@ h1 {
 /* Style the sidebar - fixed full height */
 .sidebar {
 	height: 100%;
-	width: 160px;
+	width: 100px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #111;
+	background-color: rgb(163, 207, 207);
 	overflow-x: hidden;
-	padding-top: 10px;
-  }
-  
+	padding-top: 200px;
+	
+}
+
   /* Style sidebar links */
   .sidebar a {
 	padding: 6px 8px 6px 16px;
