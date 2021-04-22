@@ -51,7 +51,9 @@ h1, p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: rgb(163, 207, 207);
+	-webkit-text-stroke: 2px white;
+	font-weight: bold;
+	color: rgb(103, 173, 173);
 } 
 
 
@@ -61,7 +63,9 @@ h1, p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: rgb(163, 207, 207);
+	-webkit-text-stroke: 2px black;
+	font-weight: bold;
+	color: rgb(103, 173, 173);
 }
 
 #section3 {
@@ -70,7 +74,8 @@ h1, p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: rgb(163, 207, 207);
+	-webkit-text-stroke: 2px black;
+	color: rgb(103, 173, 173);
 }
 
 #section4 {
@@ -138,7 +143,11 @@ h1 {
 	border: 0;
 }
 
-
+.projectsContainer{
+	display: flex;
+	justify-content: inline center;
+	
+}
 
 /* Style the sidebar - fixed full height */
 .sidebar {
@@ -172,13 +181,12 @@ h1 {
   .main {
 	margin-left: 160px; /* Same as the width of the sidenav */
 	padding: 0px 10px;
-  }
-  
+}
   /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
 	.sidebar {padding-top: 15px;}
 	.sidebar a {font-size: 18px;}
-  }
+}
 
 
 
