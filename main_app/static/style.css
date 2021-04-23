@@ -1,8 +1,8 @@
 .p1Image {
 	justify-content: center;
 	padding-top: 20px;
-	height: 350px;
-	width: 500px;
+	height: 250px;
+	width: 400px;
 	
 }
 .p1 {
@@ -10,10 +10,14 @@
 	border: 10px solid black;
 	border-radius: 10%;
 	background-color: white;
-	height: 400px;
-	width: 550px;
+	height: 300px;
+	width: 450px;
 }
 
+.button1 {
+	width: 50px;
+	height: 25px;
+}
 
 body, html {
 	margin: 0;
@@ -51,8 +55,8 @@ h1, p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-text-stroke: 2px white;
-	font-weight: bold;
+	
+	
 	color: rgb(103, 173, 173);
 } 
 
@@ -63,8 +67,8 @@ h1, p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-text-stroke: 2px black;
-	font-weight: bold;
+	
+	
 	color: rgb(103, 173, 173);
 }
 
@@ -74,13 +78,18 @@ h1, p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-text-stroke: 2px black;
+	
 	color: rgb(103, 173, 173);
 }
 
 #section4 {
-	background: #ebf5ee;
-	color: #aeb9b9;
+	background-image: url("https://hbr.org/resources/images/article_assets/2020/04/Apr20_15_CovidTrackingFinal2-2.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: rgb(103, 173, 173);
 }
 
 h1 {
