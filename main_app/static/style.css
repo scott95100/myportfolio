@@ -7,16 +7,17 @@
 }
 .p1 {
 	background-color: white;
-	border: 10px solid black;
+	border: 10px solid rgb(103, 173, 173);
 	border-radius: 10%;
 	background-color: white;
-	height: 300px;
+	height: 350px;
 	width: 450px;
 }
 
 .button1 {
-	width: 50px;
-	height: 25px;
+	background-color: rgb(163, 207, 207);
+	width: 80px;
+	height: 40px;
 }
 
 body, html {
@@ -32,12 +33,27 @@ body, html {
 	margin: 0;
 }
 
-h1, p {
+h1 {
+	
+	border: 1px solid rgb(103, 173, 173);
+	background: lightgray;
 	margin: 0;
 	font-family: sans-serif, arial;
 	font-weight: bold;
 }
 
+p {
+	color: white;
+	font-weight: 200;
+	background: blurred;
+	background: lightgray;
+	border: 1px solid rgb(103, 173, 173);
+	border-radius: 50%;
+	padding-top: 50px;
+  	padding-right: 100px;
+  	padding-bottom: 50px;
+  	padding-left: 100px;
+}
 .text-wr {
 	position: absolute;
 	top: 50%;
@@ -83,7 +99,7 @@ h1, p {
 }
 
 #section4 {
-	background-image: url("https://hbr.org/resources/images/article_assets/2020/04/Apr20_15_CovidTrackingFinal2-2.jpg");
+	background-image: url("https://haas.berkeley.edu/wp-content/uploads/CorporateEngagement-1.jpeg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -192,10 +208,11 @@ h1 {
 	padding: 0px 10px;
 }
   /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
-	.sidebar {padding-top: 15px;}
-	.sidebar a {font-size: 18px;}
-}
+  @media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }
 
 
 
