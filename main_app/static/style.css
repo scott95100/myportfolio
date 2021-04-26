@@ -225,5 +225,8 @@ h1 {
     margin: auto;
 } 
 
-
+html {
+	/* Size of largest container or bigger */
+	min-width: 1080px;
+}
 
