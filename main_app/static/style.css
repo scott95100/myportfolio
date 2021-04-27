@@ -23,6 +23,8 @@
 body, html {
 	margin: 0;
 	padding: 0;
+	/* Size of largest container or bigger */
+	min-width: 1080px;
 }
 
 .section {
@@ -207,23 +209,10 @@ h1 {
 	margin-left: 160px; /* Same as the width of the sidenav */
 	padding: 0px 10px;
 }
-  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  @media only screen and (max-width: 600px) {
-	body {
-	  background-color: lightblue;
-	}
-  }
 
-.WebContainer{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-}
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
+
+
+
 
 html {
 	/* Size of largest container or bigger */
