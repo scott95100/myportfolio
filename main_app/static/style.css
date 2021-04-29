@@ -28,6 +28,10 @@
 	height: 40px;
 }
 
+.profilePic {
+	padding-top: 50px;
+}
+
 body, html {
 	margin: 0;
 	padding: 0;
@@ -44,19 +48,24 @@ body, html {
 }
 
 h1 {
+	font-size: 1.5cm;
+	font-family: Jazz LET, fantasy ;
 	color: #EEFBFB;
 	margin: 0;
-	font-family: sans-serif, arial;
-	font-weight: bold;
+	padding-top:75px;
+	padding-bottom: 0px;
+	font-weight: 3000;
+	
 }
 
 p {
+	font-family: Blippo, fantasy;
+	font-size: 20px;
 	color: #EEFBFB;
 	font-weight: 200;
 	border-radius: 50%;
-	padding-top: 50px;
   	padding-right: 100px;
-  	padding-bottom: 50px;
+  	padding-bottom: 25px;
   	padding-left: 100px;
 }
 .text-wr {
@@ -116,10 +125,7 @@ p {
 	
 }
 
-h1 {
-	font-size: 50px;
-	margin-bottom: 25px;
-}
+
 
 .title-top {
 	font-size: 60px;
@@ -180,6 +186,11 @@ h1 {
 	display: flex;
 	justify-content: inline center;
 	
+}
+
+.developer-container {
+	display: flex;
+	justify-content: inline center;
 }
 
 /* Style the sidebar - fixed full height */
