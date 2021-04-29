@@ -7,21 +7,23 @@
 }
 .p1 {
 	background-color: white;
-	border: 10px solid rgb(103, 173, 173);
+	border: 10px solid rgb(0, 124, 199);
 	border-radius: 10%;
-	background-color: white;
 	height: 350px;
 	width: 450px;
 }
 
 .button1 {
-	background-color: rgb(163, 207, 207);
+	font-style: none;
+	color: #EEFBFB;
+	background: #4DA8DA;
 	width: 80px;
 	height: 40px;
 }
 
 .emailButton {
-	background-color: rgb(163, 207, 207);
+	color: #EEFBFB;
+	background-color: #203647;
 	width: 200px;
 	height: 40px;
 }
@@ -77,7 +79,6 @@ p {
 	background-size: cover;
 	
 	
-	color: rgb(103, 173, 173);
 } 
 
 
@@ -90,7 +91,7 @@ p {
 	background-size: cover;
 	
 	
-	color: rgb(103, 173, 173);
+	
 }
 
 #section3 {
@@ -101,7 +102,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	
-	color: rgb(103, 173, 173);
+	
 }
 
 #section4 {
@@ -112,7 +113,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	
-	color: rgb(103, 173, 173);
+	
 }
 
 h1 {
