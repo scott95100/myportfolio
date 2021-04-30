@@ -90,8 +90,6 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
-	
 } 
 
 
@@ -102,9 +100,6 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
-	
-	
 }
 
 #section3 {
@@ -114,8 +109,6 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
-	
 }
 
 #section4 {
@@ -269,7 +262,7 @@ p {
 	width: 250px;
 	padding: 8px 15px;
 	visibility: visible;
-	opacity: 0.7; 
+	opacity: 0.9; 
 }
 
 
